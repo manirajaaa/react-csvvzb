@@ -18,8 +18,8 @@ import ReactDOM from "react-dom";
 
 
 //Styling
-import './App.css';
-import AppComp from './AppComp';
-ReactDOM.render(<AppComp />, document.getElementById('root'));
+//import './App.css';
+//import AppComp from './AppComp';
+//ReactDOM.render(<AppComp />, document.getElementById('root'));
 
 
