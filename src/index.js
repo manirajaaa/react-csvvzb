@@ -30,3 +30,5 @@ import ReactDOM from "react-dom";
 //ReactDOM.render(<AppComp />, document.getElementById('root'));
 
 
+import Timer from './Timer';
+ReactDOM.render(<Timer />, document.getElementById('root'));
