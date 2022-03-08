@@ -9,8 +9,8 @@ import ReactDOM from "react-dom";
 //import ConditionalRendering from "./ConditionalRendering"
 
 //Image applications
-import PngApp from "./PngApp";
-ReactDOM.render(<PngApp/>,document.getElementById('root'));
+//import PngApp from "./PngApp";
+//ReactDOM.render(<PngApp/>,document.getElementById('root'));
 
 //ReactDOM.render(<App />, document.getElementById("root"));
 //ReactDOM.render(<AppBasicsV1 />,document.getElementById("root"));
