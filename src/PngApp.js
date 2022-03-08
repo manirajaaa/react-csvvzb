@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '/react.PNG';   
+import logo from './react.PNG';   
 class PngApp extends React.Component {
       render(){
         return(<React.Fragment>
