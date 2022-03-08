@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 //import AppAccessingAvariable from "./AppAccessingAvariable"
 //import AppAttributesExp from "./AppAttributesExp";
 //import CreatCompAlgExp from "./CreatCompAlgeExp";
-import ConditionalRendering from "./ConditionalRendering"
+//import ConditionalRendering from "./ConditionalRendering"
 
 
 //ReactDOM.render(<App />, document.getElementById("root"));
@@ -14,5 +14,12 @@ import ConditionalRendering from "./ConditionalRendering"
 //ReactDOM.render(<AppAccessingAvariable />,document.getElementById("root"));
 //ReactDOM.render(<AppAttributesExp />,document.getElementById("root"));
 //ReactDOM.render(<CreatCompAlgExp />,document.getElementById("root"));
-ReactDOM.render(<ConditionalRendering />,document.getElementById("root"));
+//ReactDOM.render(<ConditionalRendering />,document.getElementById("root"));
+
+
+//Styling
+import './App.css';
+import AppComp from './AppComp';
+ReactDOM.render(<AppComp />, document.getElementById('root'));
+
 
