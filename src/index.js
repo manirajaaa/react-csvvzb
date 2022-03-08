@@ -29,6 +29,6 @@ import ReactDOM from "react-dom";
 //import AppComp from './AppComp';
 //ReactDOM.render(<AppComp />, document.getElementById('root'));
 
-
-import Timer from './Timer';
-ReactDOM.render(<Timer />, document.getElementById('root'));
+//Timer
+//import Timer from './Timer';
+//ReactDOM.render(<Timer />, document.getElementById('root'));

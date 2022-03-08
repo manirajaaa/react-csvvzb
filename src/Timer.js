@@ -1,26 +1,27 @@
 import React from "react";
-import "./style.css";
 
 class Timer extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
-            quantity: 0,
-            price:0
-    }
+        secondsElapsed: 0
+    };
 }
-update = () => {
-    this.setState({quantity:5})
-            if(this.state.quantity == 5) {
-                    this.setState({price:2000-100})
-            }
+start = () => {
+    this.setState({
+        secondsElapsed: this.state.secondsElapsed + 1
+    });
+}
+handleClick = (e) => {
+    this.interval = setInterval(this.start, 1000);
 }
 render() {
-   return(<React.Fragment>
-            <h1>{this.state.quantity}</h1>
-            <h1>{this.state.price}</h1>
-            <button onClick={this.update}>Update</button>
-    </React.Fragment>)}
-   
+    return ( <React.Fragment><br/><br/>
+        <button onClick = {this.handleClick}>Start timer</button><br/><br/>
+        <h2> Seconds Elapsed: 
+            {this.state.secondsElapsed} 
+        </h2> 
+        </React.Fragment>);
+    }
 }
-export default Timer
+export default Timer;
