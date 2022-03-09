@@ -46,5 +46,5 @@ import ReactDOM from "react-dom";
 //ReactDOM.render(<Employee/>, document.getElementById('root'));
 
 //Login
-import Login from './Login'
-ReactDOM.render(<Login/>, document.getElementById('root'));
+//import Login from './Login'
+//ReactDOM.render(<Login/>, document.getElementById('root'));
