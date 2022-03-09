@@ -40,3 +40,7 @@ import ReactDOM from "react-dom";
   //<p>Paragraph element</p>
  // <span>Span element</span>
 //</ChildNotes>, document.getElementById('root'));
+
+//Load data using ajax
+//import Employee from './Employee';
+//ReactDOM.render(<Employee/>, document.getElementById('root'));
