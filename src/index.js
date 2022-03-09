@@ -44,3 +44,7 @@ import ReactDOM from "react-dom";
 //Load data using ajax
 //import Employee from './Employee';
 //ReactDOM.render(<Employee/>, document.getElementById('root'));
+
+//Login
+import Login from './Login'
+ReactDOM.render(<Login/>, document.getElementById('root'));
