@@ -20,8 +20,8 @@ import ReactDOM from "react-dom";
 //ReactDOM.render(<ConditionalRendering />,document.getElementById("root"));
 
 //Image applications
-import PngApp from "./PngApp";
-ReactDOM.render(<PngApp/>,document.getElementById('root'));
+//import PngApp from "./PngApp";
+//ReactDOM.render(<PngApp/>,document.getElementById('root'));
 
 
 //Styling
@@ -32,3 +32,11 @@ ReactDOM.render(<PngApp/>,document.getElementById('root'));
 //Timer
 //import Timer from './Timer';
 //ReactDOM.render(<Timer />, document.getElementById('root'));
+
+//import ChildNotes from "./ChildNotes"
+//ReactDOM.render(<ChildNotes>
+  //<li>List element</li>
+  //<h3>Heading element</h3>
+  //<p>Paragraph element</p>
+ // <span>Span element</span>
+//</ChildNotes>, document.getElementById('root'));
