@@ -20,8 +20,8 @@ import ReactDOM from "react-dom";
 //ReactDOM.render(<ConditionalRendering />,document.getElementById("root"));
 
 //Image applications
-//import PngApp from "./PngApp";
-//ReactDOM.render(<PngApp/>,document.getElementById('root'));
+import PngApp from "./PngApp";
+ReactDOM.render(<PngApp/>,document.getElementById('root'));
 
 
 //Styling
