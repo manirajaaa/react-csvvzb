@@ -2,9 +2,9 @@ import React, { useState} from 'react';
 import AddEmployee from './AddEmployee';
 const Employees = () => {
         const [employees, setEmployees] = useState([
-                { empId: 1234, name: 'John', designation: 'SE' },
-                { empId: 4567, name: 'Tom', designation: 'SSE' },
-                { empId: 8910, name: 'Kevin', designation: 'TA' }
+                { empId: 1234, name: 'mani', designation: 'SE' },
+                { empId: 4567, name: 'rahul', designation: 'SE' },
+                { empId: 8910, name: 'pavan', designation: 'TA' }
         ])
         const addEmployee = (newEmployee) => {
                 setEmployees([...employees, newEmployee]);
